@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div class="log">Login</div>
+        <form action="" method="get">
+            <p class="p-n">Username</p>
+            <label for="user">
+                <i class="fa-regular fa-user"></i>
+                Type your username
+            </label>
+            <input onclick="click()" type="text"  id="user">
+            <p class="p-n">Password</p>
+            <label for="password">
+                <i class="fa-solid fa-lock"></i>
+                Type your password
+            </label>
+            <input type="text"  id="password">
+        </form>
+        <div>
+            <p style="display: flex;justify-content: flex-end;">Forget password!</p>
+        </div>
+        <button class="btn">LOGIN</button>
+        <p style="text-align: center;">C# Sign Up Using</p>
+        <div class="logo">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+        </div>
+
+        <p style="text-align: center;margin-top: 232px;color: rgb(77, 76, 76)">C# Sign Up Using</p>
+        <a style="text-align: center;display: block;margin-top: 16px">SIGN UP</a>
+    </div>
+
+    <!-- <script>
+        function click(){
+        }
+        const a= document.querySelectorAll('label');
+        const b= document.querySelectorAll('input');
+        const c = document.querySelector("#main")
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        while(true){
+            for(let i=0;i<5;i++){
+                b[i].onclick = function (){
+                    a[i].classList.remove('display-block');
+                    a[i].classList.add('display-none');
+                }
+                document.onclick = function (){
+                    a[i].classList.remove('display-none');
+                    a[i].classList.add('display-block');
+                }
+            }
+        }
+    </script> -->
+</body>
+</html>
